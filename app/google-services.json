@@ -34,6 +34,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670227042256:android:0a75507537fe82889cb3d5",
+        "android_client_info": {
+          "package_name": "com.mainumi.play"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670227042256-6r32of3lc2lnp3d0vi2h0dg2ls6jm5l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DkUAXH7SYTTC9OmZLgO7bxnmB5Dzh2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670227042256-6r32of3lc2lnp3d0vi2h0dg2ls6jm5l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

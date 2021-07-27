@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gold Time</string>
+    <string name="app_name">Umi Play</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -10,7 +10,7 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
-    <string name="facebook_app_id">349926519844882</string>
+    <string name="facebook_app_id">867328730868454</string>
     <string name="default_notification_channel_id">783981428844153</string>
 
 

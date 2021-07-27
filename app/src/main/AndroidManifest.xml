@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.herro.goldtime">
+    package="com.herro.mainumiplay">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
-        android:name="com.herro.goldtime.App"
+        android:name="com.herro.mainumiplay.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name="com.herro.goldtime.MainActivity"
+            android:name="com.herro.mainumiplay.MainActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +36,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data
-                    android:host="comheogoldtime"
+                    android:host="commainumiplay"
                     android:scheme="https"/>
             </intent-filter>
 
@@ -52,7 +52,7 @@
             android:resource="@color/colorAccent" />
 
         <service
-            android:name="com.herro.goldtime.FcmFirebaseCloudMessaging"
+            android:name="com.herro.mainumiplay.FcmFirebaseCloudMessaging"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -68,7 +68,7 @@
 
         <provider
             android:name="com.facebook.FacebookContentProvider"
-            android:authorities="com.facebook.app.FacebookContentProvider349926519844882"
+            android:authorities="com.facebook.app.FacebookContentProvider867328730868454"
             android:exported="true" />
 
         <meta-data

@@ -1,4 +1,4 @@
-package com.herro.goldtime;
+package com.herro.mainumiplay;
 
 import android.annotation.TargetApi;
 import android.content.DialogInterface;
