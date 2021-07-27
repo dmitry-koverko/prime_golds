@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constainn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/img.bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:id="@+id/rel_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/rel_bottom"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img.login"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                android:id="@+id/img.blue"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/img.yellow"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/img.blue"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/img.f"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@id/img.blue"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="-60dp"
+                android:layout_toRightOf="@id/img.yellow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp">
+
+            <com.skydoves.progressview.ProgressView
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                app:progressView_autoAnimate="true"
+                app:progressView_colorBackground="@color/colorPrimaryDark"
+                app:progressView_colorProgress="@color/colorAccent"
+                app:progressView_labelColorInner="@color/colorPrimaryDark"
+                app:progressView_labelColorOuter="@color/colorAccent"
+                app:progressView_labelSize="24sp"
+                app:progressView_labelSpace="10dp"
+                app:progressView_labelTypeface="bold"
+                app:progressView_max="100"
+                app:progressView_min="0"
+                app:progressView_padding="1dp"
+                app:progressView_progressFromPrevious="true"
+                app:progressView_radius="12dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
